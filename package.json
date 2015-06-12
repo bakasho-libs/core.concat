@@ -8,7 +8,7 @@
   },
   "main": "src/index.js",
   "scripts": {
-    "test-node": "./node_modules/.bin/tape test/concat-test.js",
+    "test-node": "./node_modules/.bin/tape test/concat-test.js | ./node_modules/.bin/tap-spec",
     "test-browser-local": "zuul --local 8080 --ui tape -- ./test/concat-test.js",
     "test-browser-travis": "zuul -- ./test/concat-test.js"
   },

@@ -1,12 +1,12 @@
 var isArray = require("is_array");
 
-var slice = Array.prototype.slice;
+var ArraySlice = Array.prototype.slice;
 
 module.exports = concat;
 
 function concat() {
 
-    var args = toArray(arguments),
+    var args = ArraySlice.call(arguments),
         len  = args.length,
         resultSet = [],
         index = -1,
@@ -33,12 +33,5 @@ function concat() {
     }
 
     return resultSet;
-
-}
-
-function toArray(value) {
-
-    return slice.call(value);
-
 
 }
