@@ -1,0 +1,33 @@
+{
+  "name": "concat",
+  "version": "0.0.1",
+  "description": "concat func for N arguments",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bakasho-libs/concat.git"
+  },
+  "main": "src/index.js",
+  "scripts": {
+    "test-node": "./node_modules/.bin/tape test/concat-test.js",
+    "test-browser-local": "zuul --local 8080 --ui tape -- ./test/concat-test.js",
+    "test-browser-travis": "zuul -- ./test/concat-test.js"
+  },
+  "author": "Bakasho Team",
+  "license": "MIT",
+  "keywords": [
+    "concat",
+    "concat"
+  ],
+  "readmeFilename": "README.md",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-jsbeautifier": "^0.2.7",
+    "grunt-contrib-jshint": "^0.11.2",
+    "tap-spec": "^4.0.0",
+    "tape": "^4.0.0",
+    "zuul": "^3.0.0"
+  },
+  "dependencies": {
+    "is_array": "git://github.com/bakasho-libs/is_array.git"
+  }
+}
