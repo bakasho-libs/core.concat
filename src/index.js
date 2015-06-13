@@ -1,4 +1,4 @@
-var isArray = require("is_array");
+var isArray = require("core.is_array");
 
 var ArraySlice = Array.prototype.slice;
 

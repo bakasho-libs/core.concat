@@ -1,10 +1,10 @@
 {
-  "name": "concat",
+  "name": "core.concat",
   "version": "0.0.1",
   "description": "concat func for N arguments",
   "repository": {
     "type": "git",
-    "url": "https://github.com/bakasho-libs/concat.git"
+    "url": "https://github.com/bakasho-libs/core.concat.git"
   },
   "main": "src/index.js",
   "scripts": {
@@ -28,6 +28,6 @@
     "zuul": "^3.0.0"
   },
   "dependencies": {
-    "is_array": "git://github.com/bakasho-libs/is_array.git"
+    "core.is_array": "git://github.com/bakasho-libs/core.is_array.git"
   }
 }
