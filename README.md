@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/bakasho-libs/concat.svg?branch=master)](https://travis-ci.org/bakasho-libs/concat)
+[![Build Status](https://travis-ci.org/bakasho-libs/core.concat.svg?branch=master)](https://travis-ci.org/bakasho-libs/core.concat)
 
 ## core.concat
 
