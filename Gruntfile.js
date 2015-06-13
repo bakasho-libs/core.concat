@@ -45,7 +45,7 @@ module.exports = function(grunt) {
 
                 // allow == and != for null only
                 eqnull: true,
-                
+
                 // allow expression usage in assignments
                 expr: true,
 
